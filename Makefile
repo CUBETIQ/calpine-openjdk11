@@ -1,4 +1,4 @@
-DOCKER_IMAGE=calpine-openjdk11
+DOCKER_IMAGE=cubetiq/calpine-openjdk11
 DOCKER_IMAGE_NAME=${DOCKER_IMAGE}:jdk11u
 
 build:
