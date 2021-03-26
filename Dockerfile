@@ -1,7 +1,8 @@
 FROM cubetiq/calpine-os-linux:latest
 LABEL maintainer="sombochea@cubetiqs.com"
 
-RUN sudo su - root
+USER root
+
 ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
 ENV TIMEZ=Asia/Phnom_Penh
 RUN echo "Start building the openjdk11..."
