@@ -5,7 +5,7 @@ ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
 ENV TIMEZ=Asia/Phnom_Penh
 RUN echo "Start building the openjdk11..."
 RUN mkdir -p /src/cubetiq/build
-COPY lic.txt version.txt /src/cubetiq/build/
+COPY LICENSE version.txt /src/cubetiq/build/
 RUN echo "Starting setting up timezone to ${TIMEZ}..."
 
 # For Alpine
