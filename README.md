@@ -21,6 +21,7 @@ docker pull cubetiq/calpine-openjdk11:latest
 ### Running container
 ```shell
 docker run --rm -it cubetiq/calpine-openjdk11 /bin/sh
+```
 
 # Contributors
 - Sambo Chea <sombochea@cubetiqs.com>
