@@ -107,4 +107,4 @@ RUN echo "All has been completed, enjoy!"
 ENV JAVA_HOME=/opt/java/openjdk \
     PATH="/opt/java/openjdk/bin:$PATH"
 
-ENTRYPOINT [ "./entrypoint.sh" ]
+CMD [ "java", "-version" ]
